@@ -1,0 +1,48 @@
+:root {
+  --color-black: #333;
+  --color-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-black);
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.Container {
+  margin: 0 auto;
+  width: 64rem;
+}
+
+.Hero {
+  display: flex;
+  align-items: center;
+}
+
+.Hero__Image {
+  width: 25%;
+  padding: 2rem;
+}
+
+.Hero__Image img {
+  width: 100%;
+}
+
+.Hero__Body {
+  width: 75%;
+  padding: 2rem;
+}
+
+.Demo {
+  width: 100%;
+  min-height: 32rem;
+  max-height: 64rem;
+  object-fit: cover;
+}
