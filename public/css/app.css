@@ -18,7 +18,12 @@ body {
 
 .Container {
   margin: 0 auto;
-  width: 64rem;
+  min-width: 32rem;
+  max-width: 64rem;
+}
+
+.Inner {
+  padding: 1rem;
 }
 
 .Hero {
@@ -27,17 +32,8 @@ body {
 }
 
 .Hero__Image {
-  width: 25%;
-  padding: 2rem;
-}
-
-.Hero__Image img {
-  width: 100%;
-}
-
-.Hero__Body {
-  width: 75%;
-  padding: 2rem;
+  width: 80px;
+  margin-right: 2rem;
 }
 
 .Demo {
@@ -45,4 +41,8 @@ body {
   min-height: 32rem;
   max-height: 64rem;
   object-fit: cover;
+}
+
+.Share {
+  display: flex;
 }
