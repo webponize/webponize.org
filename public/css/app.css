@@ -16,6 +16,28 @@ body {
   line-height: 1.4;
 }
 
+pre {
+  word-wrap: normal;
+  overflow-wrap: normal;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+  margin: 0.1rem 0.2rem;
+  padding: 0.1rem 0.2rem;
+  color: #c25;
+  border-radius: 0.4rem;
+  background-color: #f8f8f8 !important;
+}
+
+pre > code {
+  display: block;
+  overflow-x: scroll;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+}
+
 .Container {
   margin: 0 auto;
   min-width: 32rem;
