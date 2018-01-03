@@ -6,19 +6,20 @@
     <description>WebPonize updates</description>
     <language>en</language>
     <item>
-      <title>Version 2.1.0</title>
+      <title>Version 2.2.0</title>
       <description><![CDATA[
         <ul>
-          <li>Add settings for encoding</li>
+          <li>Close window on Command + W.</li>
+          <li>Catch convert error</li>
         </ul>
       ]]></description>
-      <pubDate>Mon, 2 Jan 2018 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 3 Jan 2018 00:00:00 +0900</pubDate>
       <enclosure
-        url="https://github.com/webponize/webponize/releases/download/v2.1.0/WebPonize.app.zip"
-        sparkle:version="2.1.0"
-        length="5376483"
+        url="https://github.com/webponize/webponize/releases/download/v2.2.0/WebPonize.app.zip"
+        sparkle:version="2.2.0"
+        length="5375973"
         type="application/zip"
-        sparkle:dsaSignature="MEUCIQCEzJomYhnMMYKkHrdZtQiE6DldRd43InKgH30QDaKiQwIgR3ldhbMZZy+iS9uOHxALCq3Ei45QdtD69zn+3vUpn+M=" />
+        sparkle:dsaSignature="MEQCIHVIt4ulpvWRSSUVIMVS+j6BB/feSpHp4Oqty4n9Wh/FAiBxrf/C/WyNvaQNm5LsekRC0BoxJBZ/fe5wI9nXGa7EMA==" />
       <sparkle:minimumSystemVersion>10.13.0</sparkle:minimumSystemVersion>
     </item>
   </channel>
