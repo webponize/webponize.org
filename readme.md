@@ -1,1 +1,1 @@
-# [webponize.org](https://webponize.org) [![Build Status](https://travis-ci.org/webponize/webponize.org.svg?branch=master)](https://travis-ci.org/webponize/webponize.org)
+# webponize.org ![deploy](https://github.com/webponize/webponize.org/workflows/deploy/badge.svg?branch=master)
